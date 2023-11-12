@@ -10,6 +10,6 @@ Github Repo : https://github.com/nitinkc/git-tests.git
 - Should be able to Pull from gb with `git pull`
 - Should be able to push and pull to both repo simultaneously with one custom command
 
-# Secondry features
+# Secondary features
 - git hooks for github. Do not allow push into main or Develop branch
 - try pre commit to avoid accidental commits on develop branch
