@@ -31,7 +31,7 @@ git remote add both https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 git remote set-url --add --push both https://github.com/nitinkc/git-tests.git
 git remote set-url --add --push both https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 ```
-if remote add for the second url gives error, add the entry manually
+if remote add for the second url gives error, add the entry manually into `gitconfig`
 
 ```editorconfig
 [remote "both"]
