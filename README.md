@@ -2,6 +2,8 @@
 - Bitbucket Repo : https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 - Github Repo : https://github.com/nitinkc/git-multiRepo.git
 
+(https://nitinkc.github.io/git/multi-repo-push/)[https://nitinkc.github.io/git/multi-repo-push/]
+
 # Critical Features
 - Add Another Remote Repo (Bitbucket Repo with bb as remote repo name)
 
@@ -46,4 +48,6 @@ will be pulled on;y from the repo thats `remote add` first.
 
 # Secondary features
 - git hooks for github. Do not allow push into main or Develop branch
+
+
 - try pre commit to avoid accidental commits on develop branch
