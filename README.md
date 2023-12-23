@@ -47,7 +47,7 @@ will be pulled on;y from the repo thats `remote add` first.
 ```
 
 # Secondary features
-- git hooks for github. Do not allow push into main or Develop branch
-
-
 - try pre commit to avoid accidental commits on develop branch
+[https://github.com/nitinkc/SystemEnvironment/blob/master/gitHooks/pre-commit](https://github.com/nitinkc/SystemEnvironment/blob/master/gitHooks/pre-commit)
+
+- git hooks for github. Do not allow push into main or Develop branch
