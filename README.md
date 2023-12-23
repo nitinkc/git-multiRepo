@@ -31,7 +31,9 @@ git remote add both https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 git remote set-url --add --push both https://github.com/nitinkc/git-tests.git
 git remote set-url --add --push both https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 ```
-if remote add for the second url gives error, add the entry manually into `gitconfig`.
+if remote add for the second url gives error, add the entry manually into `gitconfig`. If not added, then also, the `--push`
+switch of `remote set-url` takes care of pushing the code into both the repo. the only difference will be in pulling the code. The code
+will be pulled on;y from the repo thats `remote add` first.
 
 ```editorconfig
 [remote "both"]
