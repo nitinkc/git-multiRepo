@@ -13,9 +13,15 @@ git remote add bb https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 ```shell
 git remote set-url --add --push bb https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 ```
-- Should be able to Pull from at least gh with `git pull`
 
-- Should be able to push and pull to both repo simultaneously with one custom command
+- Should also be able to Push or Pull from at `git pull` (From at least one of the Repo)
+
+```shell
+git remote add origin https://github.com/nitinkc/git-tests.git
+git remote set-url --add --push origin https://github.com/nitinkc/git-tests.git
+```
+
+- Should be able to push and pull to both repo simultaneously with one custom command `git push both <branch_name>`
 ```shell
 # Add the remote with fetch URL
 git remote add both https://github.com/nitinkc/git-tests.git
@@ -34,9 +40,6 @@ if remote add for the second url gives error, add the entry manually
 	fetch = +refs/heads/*:refs/remotes/both/*
 	pushurl = https://nitinc@bitbucket.org/nitinc/git-tests-bb.git
 	pushurl = https://github.com/nitinkc/git-tests.git
-```
-```shell
-git push both
 ```
 
 # Secondary features
